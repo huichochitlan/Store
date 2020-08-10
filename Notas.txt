@@ -16,6 +16,14 @@ Nuevo servicio
 Nuevo guard
 Comando: ng g g guard/auth 
 
+git
+    agregar
+        git add .
+    commit
+        git commit -m nombre del punto a guardar
+    regresar al punto anterior
+        git checkout -- .
+
 
 
 
