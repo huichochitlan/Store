@@ -1,0 +1,22 @@
+Decorador
+@injectable
+provideIn: root
+No hay necesidad de importar
+
+importar siempre en el constructor 
+private o public  nombre variable: tipo de variable
+
+Nuevo componente
+    Ayuda 
+        Comando: ng ng gerenate component --help 
+    ejemplo
+        ng g c home -is --skipTests --flat
+Nuevo servicio
+    Comando: ng g s auth 
+Nuevo guard
+Comando: ng g g guard/auth 
+
+
+
+
+
