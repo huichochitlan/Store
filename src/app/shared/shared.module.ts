@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+
 import { ContentHeaderComponent } from './content-header/content-header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
@@ -24,7 +26,8 @@ import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
     RightSidebarComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
   ]
 })
 export class SharedModule { }

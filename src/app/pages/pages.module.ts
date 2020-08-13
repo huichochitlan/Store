@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared.module';
 
-import { RouterModule } from '@angular/router'
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { GraficaComponent } from './grafica/grafica.component';
 import { PagesComponent } from './pages.component';
-import { SharedModule } from '../shared/shared.module';
+import { ComponentsModule } from '../components/components.module';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -18,6 +22,8 @@ import { SharedModule } from '../shared/shared.module';
     ProgressComponent,
     GraficaComponent,
     PagesComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   exports:[
     DashboardComponent,
@@ -27,8 +33,10 @@ import { SharedModule } from '../shared/shared.module';
   ],
   imports: [
     CommonModule,
+    FormsModule,    
     SharedModule,
-    RouterModule
+    RouterModule,
+    ComponentsModule
   ]
 })
 export class PagesModule { }
